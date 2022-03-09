@@ -2,7 +2,7 @@ tasks:
   - init: |
       docker-compose pull
   - command: |
-      docker-compose up
+      docker-compose up --verbose
 ports:
   - port: 80
     onOpen: open-browser
